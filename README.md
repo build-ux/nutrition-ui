@@ -8,6 +8,8 @@ A video series project by Build UX to craft a nutrition website design with expe
 
 The design used for this project is [Nutrition UI by Giga Tamarashvili on Dribbble](https://dribbble.com/shots/4896266-Nutrition-UI).
 
+[View and inspect the recreated design in Figma](https://www.figma.com/file/PJ1eDnAob5PCQxxBnOBIuacM/Nutrition-UI-by-Giga-Tamarashvili?node-id=0%3A1).
+
 ### Fonts
 
 This project uses two open-source fonts from [Google fonts](https://fonts.google.com/):
