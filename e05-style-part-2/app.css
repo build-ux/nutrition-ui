@@ -1,0 +1,164 @@
+/* Typography */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/muli/Muli-Regular.woff2'),
+    url('./assets/fonts/muli/Muli-Regular.woff'),
+    url('./assets/fonts/muli/Muli-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/muli/Muli-Bold.woff2'),
+    url('./assets/fonts/muli/Muli-Bold.woff'),
+    url('./assets/fonts/muli/Muli-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/fonts/muli/Muli-Black.woff2'),
+    url('./assets/fonts/muli/Muli-Black.woff'),
+    url('./assets/fonts/muli/Muli-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/yeseva-one/YesevaOne-Regular.woff2'),
+    url('./assets/fonts/yeseva-one/YesevaOne-Regular.woff'),
+    url('./assets/fonts/yeseva-one/YesevaOne-Regular.ttf');
+}
+
+:root {
+  /* Colorbook */
+  --color-charcoal-011: #161c24;
+  --color-charcoal-021: #283342;
+  --color-charcoal-046: #73767a;
+  --color-white: #fff;
+  --color-alarm-049: #ec110d;
+  --color-alarm-039: #bd0e0a;
+  --color-slate-blue-050: #4878b8;
+
+  /* Spacing */
+  --space-eighth: 0.2rem;
+  --space-quarter: 0.4rem;
+  --space-half: 0.8rem;
+  --space-default: 1.6rem;
+  --space-double: 3.2rem;
+  --space-quad: 6.4rem;
+  --space-oct: 12.8rem;
+
+  /* Typography */
+  --font-family-sans: 'Muli', sans-serif;
+  --font-family-serif: 'Yeseva One', serif;
+
+  /* Font Weights */
+  --weight-regular: 400;
+  --weight-bold: 700;
+  --weight-black: 900;
+}
+
+/* Reset */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  font-size: 1.6rem;
+  background-color: #fff;
+}
+
+/* Type Specs */
+.t-brand {
+  font-family: var(--font-family-sans);
+  font-size: 2.4rem;
+  font-weight: var(--weight-black);
+  line-height: 1;
+}
+
+.t-copy-large {
+  font-family: var(--font-family-sans);
+  font-size: 1.6rem;
+  font-weight: var(--weight-bold);
+  line-height: 1;
+}
+
+.t-display {
+  font-family: var(--font-family-serif);
+  letter-spacing: -0.2rem;
+}
+@media (max-width: 575px) {
+  .t-display {
+    font-size: 3.2rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 576px) {
+  .t-display {
+    font-size: 8rem;
+    line-height: 1.2;
+  }
+}
+
+.t-body {
+  font-family: var(--font-family-sans);
+  font-size: 1.4rem;
+  font-weight: var(--weight-regular);
+  line-height: 1.286;
+}
+
+.t-title {
+  font-family: var(--font-family-sans);
+  font-weight: var(--weight-black);
+}
+@media (max-width: 575px) {
+  .t-title {
+    font-size: 2.4rem;
+    line-height: 1.167;
+  }
+}
+@media (min-width: 576px) {
+  .t-title {
+    font-size: 2.8rem;
+    line-height: 1.143;
+  }
+}
+
+.t-section-number {
+  font-family: var(--font-family-serif);
+  font-size: 12rem;
+  line-height: 1;
+  letter-spacing: -0.2rem;
+}
+
+.t-copy-fluid {
+  font-family: var(--font-family-sans);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+}
+@media (max-width: 575px) {
+  .t-copy-fluid {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 576px) {
+  .t-copy-fluid {
+    font-size: 1.6rem;
+  }
+}
