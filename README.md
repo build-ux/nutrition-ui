@@ -1,6 +1,6 @@
 # Nutirition UI
 
-A [video series project](https://www.youtube.com/watch?v=Z8LFbc3zFTE&list=PLKFUh46KjXESnnC7TZwd_qc-GwdPRiOnl) by Build UX to craft a nutrition website design with expert HTML and CSS.
+A [video series project](https://www.youtube.com/watch?v=Z8LFbc3zFTE&list=PLKFUh46KjXESnnC7TZwd_qc-GwdPRiOnl) by [Build UX](https://youtube.com/buildux) to craft a nutrition website design with expert HTML and CSS.
 
 ## Attributions
 
